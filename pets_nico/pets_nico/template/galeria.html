@@ -1,0 +1,17 @@
+{% extends "main-template.html" %}{% load static %}
+{% block title %}PETSNICO Galeria{% endblock %}
+{% block content %}
+<div class="text-center">
+    <img src="{% static 'img/product/alimento4.jpg' %}" class="rounded float-left" alt="...">
+    <img src="{% static 'img/product/alimento7.jpg' %}" class="rounded float-right" alt="...">
+    <img src="{% static 'img/product/peludo5.jpg' %}" class="rounded float-right" alt="...">
+    <img src="{% static 'img/product/peludo8.jpg' %}" class="rounded float-right" alt="...">
+    <img src="{% static 'img/product/alimento6.jpg' %}" class="rounded float-right" alt="...">
+    <img src="{% static 'img/product/peludo6.jpg' %}" class="rounded float-right" alt="...">
+
+</div>
+<div>
+    {{ ipc }}
+    {{ fecha }}
+  </div>
+{% endblock %}
