@@ -8,5 +8,5 @@ def index(request):
     json_request = response.json()
     ipc = json_request['ipc']['valor']
     fecha = json_request['ipc']['fecha']
-    print('Retornar pagina galeria.html')
-    return render(request, 'galeria.html', {'ipc': ipc, 'fecha': fecha})
+    print('Retornar pagina index.html')
+    return render(request, 'index.html', {'ipc': ipc, 'fecha': fecha})
